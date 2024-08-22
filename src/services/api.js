@@ -14,4 +14,7 @@ export default {
   getProduct(id) {
     return apiClient.get(`/products/${id}`);
   },
+  getCategories() {
+    return apiClient.get('/categories'); // Nuevo método para obtener las categorías
+  },
 };
